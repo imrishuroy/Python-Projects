@@ -1,0 +1,19 @@
+Fibonacci Numbers - Recursion
+
+Fibonacci sequence is the sequence of numbers in which each number is the sum of the two
+preceding once and the sequence start from 0 and 1
+
+Eg - 0,1,1,2,3,5,8,13,21,34,55,89
+
+Step 1: Recursive case - the flow
+
+    5 = 3 + 2   f(n) = f(n-1) + f(n-2)
+
+Step 2: Base case - the stopping criterion
+    0 and 1
+
+Step 3: Unintentional case - the constraints
+    It can't ne negative or decimal
+    fibonacci(-1) ??
+    fibonacci(1.2) ??
+

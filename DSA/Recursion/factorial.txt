@@ -1,0 +1,17 @@
+Step -1 Recursive case - the flow
+
+    n! = n * (n-1) * (n-2) * .... 2 * 1
+    n! = n * (n-1)!
+
+
+
+Step -2 Base case - the stopping criterion
+
+    0! = 1
+    1! = !
+
+Step -3 Unintentional case - the constraint
+
+    Non negative and decimal
+    factorial(-1) ??
+    factorial(1.2) ??

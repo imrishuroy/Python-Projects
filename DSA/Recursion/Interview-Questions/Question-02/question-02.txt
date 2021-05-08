@@ -1,0 +1,22 @@
+ Q . How to calculate power of a number using recursion?
+
+ Step 1: Recursive case - the flow
+    
+    x^n = x * x * x..(n times)..* n
+    2^4 = 2 * 2 * 2 * 2 
+    x^a * x^b = xa^b 
+    x^3 * x^4 = x^3+4 = x^7
+
+    x^n = n * x^n-1
+
+Step 2: Base case - the stopping criterion
+
+    n = 0
+    n = 1
+
+Step 3: Unintensionl case - the constraint
+
+    power(-1, 2) ??
+    power(3.2, 2) ??
+    power(2, 1.2) ??
+    power(2, -1) ??     
